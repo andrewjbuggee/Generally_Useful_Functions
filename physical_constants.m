@@ -9,11 +9,24 @@ function constant = physical_constants()
 % universal gravitational constant
 constant.G = 6.6743e-11;                % m^3/kg/s^2
 
+% acceleration of gravity at the surface of Earth
+constant.g0 = 9.80665;                % m/s^2
+
 % Avogadro's constant
 constant.N_A = 6.02214076e+23;                % 1/mol
 
 % universal gas constant
 constant.R = 8.31446262;                % J/K/mol
+
+% molar mass of air
+constant.M_air = 0.2897;                % kg/mol
+
+% heat capacity of air at constant pressure
+
+constant.cp_air = 1005;                 % J/kg/K
+
+% adiabatic lapse rate
+% constant.L_a = constant.g0/constant.cp_air;                % J/K/mol
 
 % pressure of 1 standard atmosphere
 constant.atm = 101325;                % atm
@@ -23,9 +36,6 @@ constant.b_wein = 0.00289777196;                % K m
 
 % speed of light in a vacuum
 constant.c = 299792458;                % m/s
-
-% acceleration of gravity at the surface of Earth
-constant.g0 = 9.80665;                % m/s^2
 
 % Planck's constant
 constant.h = 6.62607015e-34;                % J s
