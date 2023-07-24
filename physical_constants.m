@@ -77,6 +77,9 @@ constant.au = 1.49597871e+11;             % m
 % Effective temperature of the Sun
 constant.T_sun = 5780;                     % K
 
+% Solar Constant
+constant.S0 = 1361;                        % W/m^2
+
 
 
 
